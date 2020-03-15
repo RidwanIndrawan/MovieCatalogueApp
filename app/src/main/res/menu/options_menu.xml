@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/btnFavorite"
+        android:icon="@drawable/ic_favorite_24dp"
+        android:title="@string/languageSetting"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnSearch"
+        android:icon="@drawable/ic_search_24dp"
+        android:title="@string/search"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnLanguage"
+        android:icon="@drawable/ic_english"
+        android:title="@string/languageSetting"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/btnSetting"
+        android:icon="@drawable/ic_settings_24dp"
+        android:title="@string/setting"
+        app:showAsAction="always" />
+
+
+</menu>

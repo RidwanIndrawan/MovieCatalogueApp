@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".userInterface.favoriteMovie.FavoriteMovieFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvFavMovie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        tools:listitem="@layout/item_row_movies" />
+
+    <ImageView
+        android:id="@+id/doge"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginEnd="107dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/doge1" />
+
+    <TextView
+        android:id="@+id/dogeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="306dp"
+        android:text="@string/empty"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

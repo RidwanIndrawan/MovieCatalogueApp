@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".userInterface.movie.DetailMovieActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/backdropM"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginBottom="256dp"
+            android:scaleType="center"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ProgressBar
+            android:id="@+id/progBackdrop"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginBottom="572dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="750dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbarDetailM"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:background="@android:color/transparent"
+            android:theme="?attr/actionBarTheme"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="550dp"
+            android:background="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/posterDetailM"
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_marginBottom="400dp"
+            app:layout_constraintBottom_toBottomOf="@+id/view"
+            app:layout_constraintStart_toStartOf="@+id/backdropM" />
+
+        <TextView
+            android:id="@+id/titleDetailM"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="276dp"
+            android:maxLines="2"
+            android:text="@string/textTitle"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/backdropM"
+            app:layout_constraintEnd_toEndOf="@+id/backdropM"
+            app:layout_constraintStart_toEndOf="@+id/posterDetailM" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/textRelease"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/posterDetailM"
+            app:layout_constraintTop_toBottomOf="@+id/titleDetailM" />
+
+        <TextView
+            android:id="@+id/dateDetailM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:text="@string/textDate"
+            android:textColor="@color/gold"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView2"
+            app:layout_constraintTop_toBottomOf="@+id/titleDetailM" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/textRuntime"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/posterDetailM"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ProgressBar
+            android:id="@+id/progRuntime"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="@+id/runtimeDetailM"
+            app:layout_constraintTop_toBottomOf="@+id/dateDetailM" />
+
+        <TextView
+            android:id="@+id/runtimeDetailM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/notAvailable"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/textView3"
+            app:layout_constraintTop_toBottomOf="@+id/dateDetailM" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="17dp"
+            android:text="@string/minute"
+            android:textColor="@android:color/holo_red_light"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/runtimeDetailM"
+            app:layout_constraintTop_toBottomOf="@+id/dateDetailM" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toEndOf="@+id/posterDetailM"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            app:srcCompat="@drawable/star_rating" />
+
+        <TextView
+            android:id="@+id/ratingDetailM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="22dp"
+            android:text="@string/notAvailable"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/runtimeDetailM" />
+
+        <ProgressBar
+            android:id="@+id/progRating"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView3"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="12dp"
+            android:text="@string/textSynopsis"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/posterDetailM" />
+
+        <me.biubiubiu.justifytext.library.JustifyTextView
+            android:id="@+id/synopsisDetailM"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/notAvailable"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/backdropM"
+            app:layout_constraintEnd_toEndOf="@+id/view"
+            app:layout_constraintHorizontal_bias="0.085"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <ProgressBar
+            android:id="@+id/progSynopsis"
+            android:layout_width="20dp"
+            android:layout_height="19dp"
+            android:layout_marginStart="44dp"
+            app:layout_constraintStart_toStartOf="@+id/view"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        <com.sackcentury.shinebuttonlib.ShineButton
+            android:id="@+id/favoriteMovie"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="32dp"
+            app:allow_random_color="false"
+            app:big_shine_color="@color/pink"
+            app:btn_color="@android:color/darker_gray"
+            app:btn_fill_color="@color/pink"
+            app:click_animation_duration="200"
+            app:enable_flashing="false"
+            app:shine_animation_duration="1500"
+            app:shine_count="8"
+            app:shine_turn_angle="10"
+            app:siShape="@raw/heart"
+            app:layout_constraintEnd_toEndOf="@+id/toolbarDetailM"
+            app:layout_constraintTop_toTopOf="@+id/toolbarDetailM" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

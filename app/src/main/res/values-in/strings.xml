@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MovieDB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    String For Tab Layout-->
+    <string name="movie">Film</string>
+    <string name="tvshow">Acara TV</string>
+    <string name="favorite">Favorit</string>
+
+    <!--    String For App Title-->
+    <string name="title">MovieDB</string>
+    <string name="today">Tayang Hari Ini</string>
+
+    <!--    String For Item Row & Detail-->
+    <string name="textTitle">Judul</string>
+    <string name="textRelease">Tayang :</string>
+    <string name="textDate">Tanggal</string>
+    <string name="textRating">Rating :</string>
+    <string name="textRuntime">Durasi :</string>
+    <string name="textSynopsis">Ringkasan :</string>
+    <string name="textSeason">Musim :</string>
+    <string name="textEpisodes">Episode :</string>
+    <string name="line">|</string>
+    <string name="notAvailable">-</string>
+    <string name="minute">menit</string>
+
+    <!--    String For Fragment-->
+    <string name="languageCode">id</string>
+    <string name="checkCon">Cek Koneksi Anda</string>
+    <string name="notFound">Data Tidak Ditemukan !</string>
+    <string name="empty">Wow, Kosong Banget</string>
+
+    <!--    String For Menu-->
+    <string name="favoriteMenu">Favorit</string>
+    <string name="languageSetting">Bahasa</string>
+    <string name="search">Cari</string>
+    <string name="setting">Pengaturan</string>
+    <string name="choose">Pilih Bahasa :</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+
+    <!--    String For Reminder-->
+    <string name="dailyReminder">Pengingat Harian</string>
+    <string name="dailyReminderDesc">Jangan sampai ketinggalan yang terbaru !</string>
+    <string name="todayReminder">Pengingat Hari Ini</string>
+    <string name="todayReminderDesc">Kami akan mengigatkanmu setiap jam 8 pagi untuk film terbaru</string>
+    <string name="chDailyID" translatable="false">daily_channel</string>
+    <string name="chDailyName">Daily Reminder Alarm</string>
+    <string name="DailyMassage">Jangan sampai tertinggal !</string>
+    <string name="chTodayID" translatable="false">today_channel</string>
+    <string name="chTodayName">Today Reminder Alarm</string>
+    <string name="TodayMessage">Film Baru Telah Tayang !</string>
+    <string name="NewMovie">Film Baru !</string>
+
+    <!--   String for Widget-->
+    <string name="appwidget_text">Favorite Movie</string>
+    <string name="add_widget">Add widget</string>
+</resources>

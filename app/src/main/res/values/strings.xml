@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    String For Tab Layout-->
+    <string name="movie">Movie</string>
+    <string name="tvshow">TV Show</string>
+    <string name="favorite">Favorite</string>
+
+    <!--    String For App Title-->
+    <string name="title">MovieDB</string>
+    <string name="today">Today Release</string>
+
+    <!--    String For Item Row & Detail-->
+    <string name="textTitle">Title</string>
+    <string name="textRelease">Release :</string>
+    <string name="textDate">Date</string>
+    <string name="textRating">Rating :</string>
+    <string name="textRuntime">Runtime :</string>
+    <string name="textSynopsis">Synopsis :</string>
+    <string name="textSeason">Seasons :</string>
+    <string name="textEpisodes">Episodes :</string>
+    <string name="line">|</string>
+    <string name="notAvailable">-</string>
+    <string name="minute">min</string>
+
+    <!--    String For Fragment-->
+    <string name="languageCode">en-US</string>
+    <string name="checkCon">Check Your Connection</string>
+    <string name="notFound">Data Not Found !</string>
+    <string name="empty">Wow, Such Empty</string>
+
+    <!--    String For Menu-->
+    <string name="favoriteMenu">Favorite</string>
+    <string name="languageSetting">Language</string>
+    <string name="search">Search</string>
+    <string name="setting">Setting</string>
+    <string name="choose">Choose Language :</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
+
+    <!--    String For Reminder-->
+    <string name="dailyReminder">Daily Reminder</string>
+    <string name="dailyReminderDesc">Don\'t miss the newest update !</string>
+    <string name="todayReminder">Release Today Reminder</string>
+    <string name="todayReminderDesc">We will remind you every 8.00 pm for today released movie</string>
+    <string name="chDailyID" translatable="false">daily_channel</string>
+    <string name="chDailyName">Daily Reminder Alarm</string>
+    <string name="DailyMassage">Don\'t miss the newest ones !</string>
+    <string name="chTodayID" translatable="false">today_channel</string>
+    <string name="chTodayName">Today Reminder Alarm</string>
+    <string name="TodayMessage">New Movie Released !</string>
+    <string name="NewMovie">New Movie !</string>
+
+    <!--   String for Widget-->
+    <string name="appwidget_text">Favorite Movie</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>

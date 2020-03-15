@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">FavoriteDB</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--    String For Tab Layout-->
+    <string name="movie">Movie</string>
+    <string name="tvshow">TV Show</string>
+    <string name="favorite">Favorite</string>
+
+    <!--    String For App Title-->
+    <string name="title">FavoriteDB</string>
+
+    <!--    String For Item Row & Detail-->
+    <string name="textTitle">Title</string>
+    <string name="textRelease">Release :</string>
+    <string name="textDate">Date</string>
+    <string name="textRating">Rating :</string>
+    <string name="textRuntime">Runtime :</string>
+    <string name="textSynopsis">Synopsis :</string>
+    <string name="textSeason">Seasons :</string>
+    <string name="textEpisodes">Episodes :</string>
+    <string name="line">|</string>
+    <string name="notAvailable">-</string>
+    <string name="minute">min</string>
+
+    <!--    String For Fragment-->
+    <string name="languageCode">en-US</string>
+    <string name="checkCon">Check Your Connection</string>
+    <string name="notFound">Data Not Found !</string>
+    <string name="empty">Wow, Such Empty</string>
+
+
+
+</resources>

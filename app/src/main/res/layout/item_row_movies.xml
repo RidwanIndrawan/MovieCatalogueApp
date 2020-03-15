@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/parentItemMovie"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp">
+
+
+    <ImageView
+        android:id="@+id/posterM"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/poster_bohemian" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="48dp"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        app:cardCornerRadius="5dp"
+        android:layout_marginEnd="-1dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="23dp"
+                android:layout_marginBottom="6dp"
+                android:src="@drawable/star_rating" />
+
+            <TextView
+                android:id="@+id/ratingM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="4dp"
+                android:layout_marginBottom="7dp"
+                android:text="@string/notAvailable"
+                android:textColor="@color/colorAccent"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
